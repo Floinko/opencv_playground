@@ -1,0 +1,14 @@
+<body>
+<img id="img" src="http://localhost:5000/test.jpg", width="1280", height="960">
+<script>
+   let img = document.getElementById("img")
+    function updateImage()
+    {
+        if(img.complete) {
+            img.src = "http://localhost:5000/test.jpg?" + new Date().getTime();
+        }
+        setTimeout(updateImage, 250);
+    }
+    updateImage()
+</script>
+</body>

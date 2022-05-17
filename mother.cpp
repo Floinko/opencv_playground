@@ -13,6 +13,7 @@ int main(int argc, char *argv[]) {
     bool lever = true;
     if (lever) {
         std::cout << main2(1, test) << std::endl;
+        //std::cout << draw(1, test) << std::endl;
     } else {
         std::cout << draw(1, test) << std::endl;
     }
