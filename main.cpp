@@ -37,7 +37,7 @@ const char* keys =
         {
                 "{help h||}{@image |fruits.jpg|input image name}"
         };
-int main( int argc, const char** argv )
+int draw( int argc, const char** argv )
 {
     help(argv);
     CommandLineParser parser(argc, argv, keys);
